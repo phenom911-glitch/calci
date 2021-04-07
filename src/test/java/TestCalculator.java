@@ -36,7 +36,7 @@ public class TestCalculator {
         assertEquals(4, cal.teDivi(8,2));
     }
     @Test
-    public void testMul(){
+    public void testMuli(){
         assertEquals(4,cal.teMul(2,2));
     }
 }
