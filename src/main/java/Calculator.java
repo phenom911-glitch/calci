@@ -15,6 +15,6 @@ public class Calculator {
         return a-b;
     }
     public int teDivi(int a, int b){
-        return 0;
+        return a/b;
     }
 }
