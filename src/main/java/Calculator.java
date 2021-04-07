@@ -19,6 +19,6 @@ public class Calculator {
     }
 
     public int teMul(int a, int b){
-        return 0;
+        return a*b;
     }
 }
