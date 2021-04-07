@@ -30,4 +30,9 @@ public class TestCalculator {
     public void testMinus(){
         assertEquals(2, cal.minus(4,2));
     }
+
+    @Test
+    public void testDivi{
+        assertEquals(4, cal.teDivi(8,2));
+    }
 }
