@@ -3,6 +3,6 @@ public class Calculator {
         return a+b;
     }
     public int sub(int a, int b){
-        return 0;
+        return a-b;
     }
 }
