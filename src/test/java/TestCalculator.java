@@ -1,31 +1,28 @@
 import org.junit.Assert;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 public class TestCalculator {
     Calculator cal= new Calculator();
 
     @Test
     public void testAdd() {
-
-        int result=cal.add(2, 2);
-        if(result!=4) {
-            Assert.fail();
-        }
+        assertEquals(4,cal.add(2,2));
     }
 
     @Test
     public void testSub(){
-        int result = cal.sub(3,2);
-        if(result != 1){
-            Assert.fail();
-        }
+        assertEquals(1,cal.sub(3,2));
     }
 
     @Test
     public void testDiv(){
-        int result = cal.div(4,2);
-        if(result != 2){
-            Assert.fail();
-        }
+        assertEquals(2,cal.div(4,2));
+    }
+
+    @Test
+    public void testMul(){
+        assertEquals(8,cal.multiply(4,2));
     }
 }
