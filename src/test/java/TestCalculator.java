@@ -26,8 +26,4 @@ public class TestCalculator {
         assertEquals(8,cal.multiply(4,2));
     }
 
-    @Test
-    public void testMinus(){
-        assertEquals(4, cal.minus(8,4));
-    }
 }
