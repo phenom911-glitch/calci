@@ -32,7 +32,7 @@ public class TestCalculator {
     }
 
     @Test
-    public void testDivi{
+    public void testDivi(){
         assertEquals(4, cal.teDivi(8,2));
     }
 }
