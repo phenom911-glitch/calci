@@ -20,4 +20,12 @@ public class TestCalculator {
             Assert.fail();
         }
     }
+
+    @Test
+    public void testDiv(){
+        int result = cal.div(4,2);
+        if(result != 2){
+            Assert.fail();
+        }
+    }
 }
