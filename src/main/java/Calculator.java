@@ -17,4 +17,8 @@ public class Calculator {
     public int teDivi(int a, int b){
         return a/b;
     }
+
+    public int teMul(int a, int b){
+        return 0;
+    }
 }
